@@ -11,7 +11,7 @@ public class Iphone implements ReprodutorMusical, AparelhoTelefonico, NavegadorI
 
     @Override
     public void ligar(String numero) {
-        System.out.println("Ligando para: " + numero);
+        System.out.println(STR."Ligando para: \{numero}");
 
     }
 
@@ -29,7 +29,7 @@ public class Iphone implements ReprodutorMusical, AparelhoTelefonico, NavegadorI
 
     @Override
     public void exibirPagina(String url) {
-        System.out.println("Pagina: " + url);
+        System.out.println(STR."Pagina: \{url}");
 
     }
 
@@ -60,7 +60,7 @@ public class Iphone implements ReprodutorMusical, AparelhoTelefonico, NavegadorI
 
     @Override
     public void selecionarMusica(String musica) {
-        System.out.println("Tocando: " + musica);
+        System.out.println(STR."Tocando: \{musica}");
 
     }
 }
