@@ -11,7 +11,7 @@ public class MenuOperacional {
         iphone.adicionarNovaAba();
         iphone.exibirPagina("github");
         iphone.iniciarCorreioVoz();
-        
+        iphone.atualizarPagina();
 
     }
 }
